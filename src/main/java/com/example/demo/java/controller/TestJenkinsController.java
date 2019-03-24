@@ -13,6 +13,6 @@ public class TestJenkinsController {
 
     @RequestMapping("/test")
    public String sayHello(){
-       return "hello:jenkins  1232132332131======="+new Date();
+       return "hello:jenkins  1232132332131========="+new Date();
    }
 }
