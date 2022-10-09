@@ -13,7 +13,7 @@ public class TestJenkinsController {
 
     @RequestMapping("/test")
    public String sayHello(){
-        System.out.printf("wo de 第一次 构建");
+        System.out.printf("wo de 第二次 构建");
         return "哈哈，来吧145$$$$$$1========="+new Date();
    }
 }
